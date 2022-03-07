@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Vizsgaremek</string>
+    <string name="register">Regisztráció</string>
+    <string name="lastname">Vezetéknév</string>
+    <string name="firstname">Keresztnév</string>
+    <string name="email">E-mail cím</string>
+    <string name="password">Jelszó</string>
+    <string name="login_here">Bejelentkezés</string>
+    <string name="login">Bejelentkezés</string>
+    <string name="register_here">Regisztráció</string>
+</resources>
