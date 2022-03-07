@@ -5,8 +5,8 @@ import android.os.Looper;
 import android.util.Log;
 import android.view.View;
 import android.widget.ProgressBar;
-
 import com.vishnusivadas.advanced_httpurlconnection.PutData;
+
 
 public class RegisterUser {
     protected void putDataToDB(User user, ProgressBar progressBar){
