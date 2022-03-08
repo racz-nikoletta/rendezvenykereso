@@ -7,7 +7,7 @@ class DataBase
     public $data;
     private $sql;
     protected $servername;
-    protected $username;
+    protected $email;
     protected $password;
     protected $databasename;
 
@@ -18,14 +18,14 @@ class DataBase
         $this->sql = null;
         $dbc = new DataBaseConfig();
         $this->servername = $dbc->servername;
-        $this->username = $dbc->username;
+        $this->email = $dbc->email;
         $this->password = $dbc->password;
         $this->databasename = $dbc->databasename;
     }
 
     function dbConnect()
     {
-        $this->connect = mysqli_connect($this->servername, $this->username, $this->password, $this->databasename);
+        $this->connect = mysqli_connect($this->servername, $this->email, $this->password, $this->databasename);
         return $this->connect;
     }
 
@@ -34,17 +34,17 @@ class DataBase
         return mysqli_real_escape_string($this->connect, stripslashes(htmlspecialchars($data)));
     }
 
-    function logIn($table, $username, $password)
+    function logIn($table, $email, $password)
     {
-        $username = $this->prepareData($username);
+        $email = $this->prepareData($email);
         $password = $this->prepareData($password);
-        $this->sql = "select * from " . $table . " where username = '" . $username . "'";
+        $this->sql = "select * from " . $table . " where email = '" . $email . "'";
         $result = mysqli_query($this->connect, $this->sql);
         $row = mysqli_fetch_assoc($result);
         if (mysqli_num_rows($result) != 0) {
-            $dbusername = $row['username'];
+            $dbemail = $row['email'];
             $dbpassword = $row['password'];
-            if ($dbusername == $username && password_verify($password, $dbpassword)) {
+            if ($dbemail == $email && password_verify($password, $dbpassword)) {
                 $login = true;
             } else $login = false;
         } else $login = false;
@@ -52,38 +52,22 @@ class DataBase
         return $login;
     }
 
-    function signUp($table, $fullname, $email, $username, $password, $address, $phoneNumber)
+    function signUp($table, $lastname, $firstname, $email, $password)
     {
-        $fullname = $this->prepareData($fullname);
-        $username = $this->prepareData($username);
-        $password = $this->prepareData($password);
+        $lastname = $this->prepareData($lastname);
+        $firstname = $this->prepareData($firstname);
         $email = $this->prepareData($email);
-        $address = $this->prepareData($address);
-        $phoneNumber = $this->prepareData($phoneNumber);
+        $password = $this->prepareData($password);
         $password = password_hash($password, PASSWORD_DEFAULT);
         $this->sql =
-            "INSERT INTO " . $table . " (fullname, username, password, email, address, phoneNumber) 
-			VALUES ('" . $fullname . "','" . $username . "','" . $password . "','" . $email . "','" . $address . "','" . $phoneNumber . "')";
+            "INSERT INTO " . $table . " (lastname, firstname, email, password) 
+			VALUES ('" . $lastname . "','" . $firstname . "','" . $email . "','" . $password . "')";
         if (mysqli_query($this->connect, $this->sql)) {
             return true;
         } else return false;
     }
 	
-	function orderFood($table, $fullname, $foodType, $foodName, $foodAttributes, $foodSauce, $orderDate)
-    {
-        $fullname = $this->prepareData($fullname);
-        $foodType = $this->prepareData($foodType);
-        $foodName = $this->prepareData($foodName);
-        $foodAttributes = $this->prepareData($foodAttributes);
-        $foodSauce = $this->prepareData($foodSauce);
-        $orderDate = $this->prepareData($orderDate);
-        $this->sql =
-            "INSERT INTO " . $table . " (fullname, foodType, foodName, foodAttributes, foodSauce, orderDate) 
-			VALUES ('" . $fullname . "','" . $foodType . "','" . $foodName . "','" . $foodAttributes . "','" . $foodSauce . "','" . $orderDate . "')";
-        if (mysqli_query($this->connect, $this->sql)) {
-            return true;
-        } else return false;
-    }
+	
 
 }
 

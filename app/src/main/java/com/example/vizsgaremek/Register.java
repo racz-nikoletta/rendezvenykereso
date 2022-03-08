@@ -2,14 +2,19 @@ package com.example.vizsgaremek;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Looper;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ProgressBar;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.material.textfield.TextInputEditText;
+import com.vishnusivadas.advanced_httpurlconnection.PutData;
 
 public class Register extends AppCompatActivity {
 
@@ -47,14 +52,54 @@ public class Register extends AppCompatActivity {
         registerButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-                User user = new User(String.valueOf(textInputEditTextLastname.getText())
-                        ,String.valueOf(textInputEditTextFirstname.getText())
-                        ,String.valueOf(textInputEditTextEmail.getText())
-                        ,String.valueOf(textInputEditTextPassword.getText()));
-
-                registerUser.putDataToDB(user,progressBar);
-
+                String lastname, firstname, email, password;
+                lastname = String.valueOf(textInputEditTextLastname.getText());
+                firstname = String.valueOf(textInputEditTextFirstname.getText());
+                email = String.valueOf(textInputEditTextEmail.getText());
+                password = String.valueOf(textInputEditTextPassword.getText());
+                if(!lastname.equals("") && !firstname.equals("") && !email.equals("") && !password.equals("")) {
+                    progressBar.setVisibility(View.VISIBLE);
+                    Handler handler = new Handler(Looper.getMainLooper());
+                    handler.post(new Runnable() {
+                        @Override
+                        public void run() {
+                            //Starting Write and Read data with URL
+                            //Creating array for parameters
+                            String[] field = new String[4];
+                            field[0] = "lastname";
+                            field[1] = "firstname";
+                            field[2] = "email";
+                            field[3] = "password";
+                            //Creating array for data
+                            String[] data = new String[4];
+                            data[0] = lastname;
+                            data[1] = firstname;
+                            data[2] = email;
+                            data[3] = password;
+                            //PutData putData = new PutData("http://localhost/registerlogin/signup.php", "POST", field, data);
+                            PutData putData = new PutData("http://10.0.11.118/vizsgaremek/signup.php", "POST", field, data);
+                            if (putData.startPut()) {
+                                if (putData.onComplete()) {
+                                    progressBar.setVisibility(View.GONE);
+                                    String result = putData.getResult();
+                                    if(result.equals("Sign Up Success")){
+                                        Toast.makeText(getApplicationContext(), result, Toast.LENGTH_SHORT).show();
+                                        Intent intent = new Intent(getApplicationContext(), Login.class);
+                                        startActivity(intent);
+                                        finish();
+                                    }else{
+                                        Toast.makeText(getApplicationContext(), result, Toast.LENGTH_SHORT).show();
+                                    }
+                                    Log.i("PutData", result);
+                                }
+                            }
+                            //End Write and Read data with URL
+                        }
+                    });
+                }
+                else{
+                    Toast.makeText(getApplicationContext(), "All fields required!", Toast.LENGTH_SHORT).show();
+                }
             }
         });
     }

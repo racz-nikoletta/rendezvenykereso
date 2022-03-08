@@ -5,25 +5,25 @@ import android.os.Looper;
 import android.util.Log;
 import android.view.View;
 import android.widget.ProgressBar;
+
 import com.vishnusivadas.advanced_httpurlconnection.PutData;
 
 
 public class RegisterUser {
-    protected void putDataToDB(User user, ProgressBar progressBar){
-
-        if(!user.getLastname().equals("") && !user.getFirstname().equals("") && !user.getEmail().equals("") && !user.getPassword().equals("")) {
+    protected void putDataToDB(User user, ProgressBar progressBar) {
+        if (!user.getLastname().equals("") && !user.getFirstname().equals("") && !user.getEmail().equals("") && !user.getPassword().equals("")) {
             progressBar.setVisibility(View.VISIBLE);
             Handler handler = new Handler(Looper.getMainLooper());
             handler.post(new Runnable() {
                 @Override
                 public void run() {
-                    String[] field = new String[6];
+                    String[] field = new String[4];
                     field[0] = "lastname";
                     field[1] = "firstname";
                     field[2] = "email";
                     field[3] = "password";
                     //Creating array for data
-                    String[] data = new String[6];
+                    String[] data = new String[4];
                     data[0] = user.getLastname();
                     data[1] = user.getFirstname();
                     data[2] = user.getEmail();
