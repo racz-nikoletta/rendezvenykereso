@@ -8,4 +8,6 @@
     <string name="login_here">Bejelentkezés</string>
     <string name="login">Bejelentkezés</string>
     <string name="register_here">Regisztráció</string>
+    <string name="ezen_a_h_ten_megrendezett_esem_nyek">Ezen a héten megrendezett események</string>
+    <string name="budapest">Budapest</string>
 </resources>
