@@ -4,10 +4,10 @@ import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class BudapestEvents extends AppCompatActivity {
+public class PecsEvents extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_budapest_events);
+        setContentView(R.layout.activity_pecs_events);
     }
 }
