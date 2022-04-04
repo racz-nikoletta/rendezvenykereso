@@ -11,6 +11,12 @@
         android:theme="@style/Theme.Vizsgaremek"
         android:usesCleartextTraffic="true">>
         <activity
+            android:name=".Time"
+            android:exported="true" />
+        <activity
+            android:name=".Occasion"
+            android:exported="true" />
+        <activity
             android:name=".City"
             android:exported="true" />
         <activity
