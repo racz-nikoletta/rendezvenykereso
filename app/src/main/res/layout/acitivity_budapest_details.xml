@@ -6,6 +6,20 @@
     android:layout_height="match_parent">
 
     <TextView
+        android:id="@+id/textView37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Budapesti Nemzeti Színház"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.264" />
+
+    <TextView
         android:id="@+id/budapestTextView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -34,5 +48,23 @@
         app:srcCompat="@android:drawable/ic_search_category_default"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        app:srcCompat="@drawable/outline_location_on_black_24dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="187dp" />
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Budapest, Bajor Gizi park 1, 1095"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="231dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
