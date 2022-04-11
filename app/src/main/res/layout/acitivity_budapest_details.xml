@@ -28,7 +28,7 @@
         tools:layout_editor_absoluteY="541dp" />
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/magnifier_icon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@android:drawable/ic_search_category_default"
