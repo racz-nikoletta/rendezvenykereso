@@ -6,12 +6,25 @@
     android:layout_height="match_parent">
 
     <TextView
+        android:id="@+id/textView42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Szerda, 18:00"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.273"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.459" />
+
+    <TextView
         android:id="@+id/textView37"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Budapesti Nemzeti Színház"
         android:textColor="@color/black"
-        android:textSize="18sp"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -54,8 +67,8 @@
         android:layout_width="54dp"
         android:layout_height="54dp"
         app:srcCompat="@drawable/outline_location_on_black_24dp"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="187dp" />
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="193dp" />
 
     <TextView
         android:id="@+id/textView39"
@@ -63,8 +76,26 @@
         android:layout_height="wrap_content"
         android:text="Budapest, Bajor Gizi park 1, 1095"
         android:textColor="@color/black"
-        android:textSize="18sp"
-        tools:layout_editor_absoluteX="96dp"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="83dp"
         tools:layout_editor_absoluteY="231dp" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2022. Dec. 14."
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="286dp" />
+
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:id="@+id/imageFilterView2"
+        android:layout_width="52dp"
+        android:layout_height="49dp"
+        app:srcCompat="@drawable/outline_event_black_24dp"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="277dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
