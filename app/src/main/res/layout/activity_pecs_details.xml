@@ -5,6 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <Button
+        android:id="@+id/foglalasButton4"
+        android:layout_width="159dp"
+        android:layout_height="68dp"
+        android:text="Foglalás"
+        tools:layout_editor_absoluteX="123dp"
+        tools:layout_editor_absoluteY="541dp" />
+
     <ImageView
         android:id="@+id/imageView11"
         android:layout_width="wrap_content"
