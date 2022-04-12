@@ -9,14 +9,14 @@
         android:id="@+id/textView42"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Szerda, 18:00"
+        android:text="Szerda, 18:00 - 20:00"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.273"
+        app:layout_constraintHorizontal_bias="0.333"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.459" />
+        app:layout_constraintVertical_bias="0.461" />
 
     <TextView
         android:id="@+id/textView37"
@@ -31,6 +31,20 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.264" />
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BNSZ eseménye"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.314"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.637" />
 
     <TextView
         android:id="@+id/budapestTextView2"
@@ -97,8 +111,8 @@
         android:text="5500 Ft"
         android:textColor="@color/black"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="83dp"
-        tools:layout_editor_absoluteY="375dp" />
+        tools:layout_editor_absoluteX="82dp"
+        tools:layout_editor_absoluteY="374dp" />
 
     <androidx.constraintlayout.utils.widget.ImageFilterView
         android:id="@+id/imageFilterView2"
@@ -126,5 +140,13 @@
         app:srcCompat="@drawable/outline_credit_card_black_24dp"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="361dp" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/outline_flag_black_24dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="439dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
