@@ -5,8 +5,190 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteX="-44dp"
+            tools:layout_editor_absoluteY="0dp">
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Szombat, 13:30 - 15:30"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.356"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.461" />
+
+            <Button
+                android:id="@+id/foglalasButton"
+                android:layout_width="159dp"
+                android:layout_height="68dp"
+                android:text="Foglalás"
+                tools:layout_editor_absoluteX="123dp"
+                tools:layout_editor_absoluteY="541dp" />
+
+            <ImageView
+                android:id="@+id/magnifier_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@android:drawable/ic_search_category_default"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="16dp" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="54dp"
+                android:layout_height="54dp"
+                app:srcCompat="@drawable/outline_location_on_black_24dp"
+                tools:layout_editor_absoluteX="10dp"
+                tools:layout_editor_absoluteY="193dp" />
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2022. Máj. 1."
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="82dp"
+                tools:layout_editor_absoluteY="284dp" />
+
+            <androidx.constraintlayout.utils.widget.ImageFilterView
+                android:id="@+id/imageFilterView2"
+                android:layout_width="52dp"
+                android:layout_height="49dp"
+                app:srcCompat="@drawable/outline_event_black_24dp"
+                tools:layout_editor_absoluteX="10dp"
+                tools:layout_editor_absoluteY="277dp" />
+
+            <androidx.constraintlayout.utils.widget.ImageFilterView
+                android:id="@+id/imageFilterView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/outline_credit_card_black_24dp"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="361dp" />
+
+            <ImageView
+                android:id="@+id/imageView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/outline_flag_black_24dp"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="439dp" />
+
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="84dp"
+                tools:layout_editor_absoluteY="187dp" />
+
+            <TextView
+                android:id="@+id/textView53"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Anyák napi musical"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="30dp"
+                tools:layout_editor_absoluteY="120dp" />
+
+            <TextView
+                android:id="@+id/textView51"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="VOKE Egyetértés Művelődési Központ"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="70dp"
+                tools:layout_editor_absoluteY="188dp" />
+
+            <TextView
+                android:id="@+id/textView52"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Debrecen, Faraktár u. 67, 4034"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="69dp"
+                tools:layout_editor_absoluteY="232dp" />
+
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="VOKE eseménye"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="84dp"
+                tools:layout_editor_absoluteY="447dp" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <Button
+            android:id="@+id/foglalasButton6"
+            android:layout_width="159dp"
+            android:layout_height="68dp"
+            android:text="Foglalás"
+            tools:layout_editor_absoluteX="123dp"
+            tools:layout_editor_absoluteY="541dp" />
+
+        <ImageView
+            android:id="@+id/magnifier_icon2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:drawable/ic_search_category_default"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <ImageView
+            android:id="@+id/imageView18"
+            android:layout_width="54dp"
+            android:layout_height="54dp"
+            app:srcCompat="@drawable/outline_location_on_black_24dp"
+            tools:layout_editor_absoluteX="10dp"
+            tools:layout_editor_absoluteY="193dp" />
+
+        <androidx.constraintlayout.utils.widget.ImageFilterView
+            android:id="@+id/imageFilterView4"
+            android:layout_width="52dp"
+            android:layout_height="49dp"
+            app:srcCompat="@drawable/outline_event_black_24dp"
+            tools:layout_editor_absoluteX="10dp"
+            tools:layout_editor_absoluteY="277dp" />
+
+        <androidx.constraintlayout.utils.widget.ImageFilterView
+            android:id="@+id/imageFilterView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/outline_credit_card_black_24dp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="361dp" />
+
+        <ImageView
+            android:id="@+id/imageView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/outline_flag_black_24dp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="439dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
     <TextView
-        android:id="@+id/debrecenTextView"
+        android:id="@+id/budapestTextView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Debrecen"
@@ -18,6 +200,112 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.088" />
+
+    <Button
+        android:id="@+id/foglalasButton7"
+        android:layout_width="159dp"
+        android:layout_height="68dp"
+        android:text="Foglalás"
+        tools:layout_editor_absoluteX="123dp"
+        tools:layout_editor_absoluteY="541dp" />
+
+    <ImageView
+        android:id="@+id/magnifier_icon3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_search_category_default"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        app:srcCompat="@drawable/outline_location_on_black_24dp"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="193dp" />
+
+    <TextView
+        android:id="@+id/textView49"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1500 Ft"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="371dp" />
+
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:id="@+id/imageFilterView6"
+        android:layout_width="52dp"
+        android:layout_height="49dp"
+        app:srcCompat="@drawable/outline_event_black_24dp"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="277dp" />
+
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:id="@+id/imageFilterView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/outline_credit_card_black_24dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="361dp" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/outline_flag_black_24dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="439dp" />
+
+    <Button
+        android:id="@+id/foglalasButton8"
+        android:layout_width="159dp"
+        android:layout_height="68dp"
+        android:text="Foglalás"
+        tools:layout_editor_absoluteX="123dp"
+        tools:layout_editor_absoluteY="541dp" />
+
+    <ImageView
+        android:id="@+id/magnifier_icon4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_search_category_default"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        app:srcCompat="@drawable/outline_location_on_black_24dp"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="193dp" />
+
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:id="@+id/imageFilterView8"
+        android:layout_width="52dp"
+        android:layout_height="49dp"
+        app:srcCompat="@drawable/outline_event_black_24dp"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="277dp" />
+
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:id="@+id/imageFilterView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/outline_credit_card_black_24dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="361dp" />
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/outline_flag_black_24dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="439dp" />
 
     <Button
         android:id="@+id/foglalasButton2"
