@@ -90,6 +90,16 @@
         tools:layout_editor_absoluteX="83dp"
         tools:layout_editor_absoluteY="286dp" />
 
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5500 Ft"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="375dp" />
+
     <androidx.constraintlayout.utils.widget.ImageFilterView
         android:id="@+id/imageFilterView2"
         android:layout_width="52dp"
@@ -108,5 +118,13 @@
         android:textStyle="bold"
         tools:layout_editor_absoluteX="68dp"
         tools:layout_editor_absoluteY="111dp" />
+
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:id="@+id/imageFilterView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/outline_credit_card_black_24dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="361dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
