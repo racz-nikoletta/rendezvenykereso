@@ -7,28 +7,28 @@
 
 
     <TextView
-        android:id="@+id/eventTextView"
-        android:layout_width="wrap_content"
+        android:id="@+id/occasionTextView"
+        android:layout_width="420dp"
         android:layout_height="wrap_content"
-        android:text="Válasszon rendezvény fajtát!"
+        android:text="Válasszon a rendezvény fajták közül!"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.101" />
+        app:layout_constraintVertical_bias="0.022" />
 
     <Spinner
         android:id="@+id/occasionSpinner"
-        android:layout_width="250dp"
+        android:layout_width="300dp"
         android:layout_height="48dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.231"
+        app:layout_constraintVertical_bias="0.096"
         tools:ignore="SpeakableTextPresentCheck" />
 
     <Button
@@ -40,5 +40,17 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/occasionSpinner"
-        app:layout_constraintVertical_bias="0.859" />
+        app:layout_constraintVertical_bias="0.945" />
+
+    <ListView
+        android:id="@+id/occasionListView"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_below="@id/occasionSpinner"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.497" />
 </androidx.constraintlayout.widget.ConstraintLayout>
