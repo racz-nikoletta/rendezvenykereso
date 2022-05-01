@@ -3,31 +3,37 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/sz0juhade/AndroidStudioProjects/rendezvenykereso/app/src/main/res/layout/activity_budapest_events.xml" value="0.33" />
-        <entry key="..\:/Users/sz0juhade/AndroidStudioProjects/rendezvenykereso/app/src/main/res/layout/activity_city.xml" value="0.2957427536231884" />
-        <entry key="..\:/Users/sz0juhade/AndroidStudioProjects/rendezvenykereso/app/src/main/res/layout/activity_debrecen_events.xml" value="0.33" />
-        <entry key="..\:/Users/sz0juhade/AndroidStudioProjects/rendezvenykereso/app/src/main/res/layout/activity_events.xml" value="0.2957427536231884" />
-        <entry key="..\:/Users/sz0juhade/AndroidStudioProjects/rendezvenykereso/app/src/main/res/layout/activity_login.xml" value="0.2957427536231884" />
-        <entry key="..\:/Users/sz0juhade/AndroidStudioProjects/rendezvenykereso/app/src/main/res/layout/activity_main.xml" value="0.2957427536231884" />
-        <entry key="..\:/Users/sz0juhade/AndroidStudioProjects/rendezvenykereso/app/src/main/res/layout/activity_miskolc_events.xml" value="0.35104166666666664" />
-        <entry key="..\:/Users/sz0juhade/AndroidStudioProjects/rendezvenykereso/app/src/main/res/layout/activity_pecs_events.xml" value="0.33" />
-        <entry key="..\:/Users/sz0juhade/AndroidStudioProjects/rendezvenykereso/app/src/main/res/layout/activity_register.xml" value="0.2957427536231884" />
-        <entry key="..\:/Users/sz0juhade/AndroidStudioProjects/rendezvenykereso/app/src/main/res/layout/activity_szeged_events.xml" value="0.33" />
-        <entry key="..\:/Users/sz0racnik/Documents/Vizsgaremek/app/src/main/res/layout/activity_appointment.xml" value="0.2390625" />
-        <entry key="..\:/Users/sz0racnik/Documents/Vizsgaremek/app/src/main/res/layout/activity_budapest_events.xml" value="0.2390625" />
-        <entry key="..\:/Users/sz0racnik/Documents/Vizsgaremek/app/src/main/res/layout/activity_city.xml" value="0.17831813576494426" />
-        <entry key="..\:/Users/sz0racnik/Documents/Vizsgaremek/app/src/main/res/layout/activity_date.xml" value="0.2390625" />
-        <entry key="..\:/Users/sz0racnik/Documents/Vizsgaremek/app/src/main/res/layout/activity_debrecen_events.xml" value="0.2390625" />
-        <entry key="..\:/Users/sz0racnik/Documents/Vizsgaremek/app/src/main/res/layout/activity_events.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/sz0racnik/Documents/Vizsgaremek/app/src/main/res/layout/activity_login.xml" value="0.17831813576494426" />
-        <entry key="..\:/Users/sz0racnik/Documents/Vizsgaremek/app/src/main/res/layout/activity_main.xml" value="0.17831813576494426" />
-        <entry key="..\:/Users/sz0racnik/Documents/Vizsgaremek/app/src/main/res/layout/activity_miskolc_events.xml" value="0.2390625" />
-        <entry key="..\:/Users/sz0racnik/Documents/Vizsgaremek/app/src/main/res/layout/activity_occasion.xml" value="0.2390625" />
-        <entry key="..\:/Users/sz0racnik/Documents/Vizsgaremek/app/src/main/res/layout/activity_pecs_events.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/sz0racnik/Documents/Vizsgaremek/app/src/main/res/layout/activity_register.xml" value="0.17831813576494426" />
-        <entry key="..\:/Users/sz0racnik/Documents/Vizsgaremek/app/src/main/res/layout/activity_szeged_details.xml" value="0.23802083333333332" />
-        <entry key="..\:/Users/sz0racnik/Documents/Vizsgaremek/app/src/main/res/layout/activity_szeged_events.xml" value="0.20520833333333333" />
-        <entry key="..\:/Users/sz0racnik/Documents/Vizsgaremek/app/src/main/res/layout/activity_time.xml" value="0.2390625" />
+        <entry key="..\:/androidstudio/Vizsgaremek/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.195" />
+        <entry key="..\:/androidstudio/Vizsgaremek/app/src/main/res/drawable/ic_launcher_background.xml" value="0.195" />
+        <entry key="..\:/androidstudio/Vizsgaremek/app/src/main/res/layout/acitivity_budapest_details_diotoro.xml" value="0.25416666666666665" />
+        <entry key="..\:/androidstudio/Vizsgaremek/app/src/main/res/layout/activity_anyaknapja.xml" value="0.25416666666666665" />
+        <entry key="..\:/androidstudio/Vizsgaremek/app/src/main/res/layout/activity_budapest_details_regesztortenetek.xml" value="0.25416666666666665" />
+        <entry key="..\:/androidstudio/Vizsgaremek/app/src/main/res/layout/activity_budapest_events.xml" value="0.25416666666666665" />
+        <entry key="..\:/androidstudio/Vizsgaremek/app/src/main/res/layout/activity_campus.xml" value="0.25416666666666665" />
+        <entry key="..\:/androidstudio/Vizsgaremek/app/src/main/res/layout/activity_city.xml" value="0.25416666666666665" />
+        <entry key="..\:/androidstudio/Vizsgaremek/app/src/main/res/layout/activity_debrecen_details.xml" value="0.25416666666666665" />
+        <entry key="..\:/androidstudio/Vizsgaremek/app/src/main/res/layout/activity_debrecen_details_campus.xml" value="0.25416666666666665" />
+        <entry key="..\:/androidstudio/Vizsgaremek/app/src/main/res/layout/activity_debrecen_events_anyaknap.xml" value="0.25416666666666665" />
+        <entry key="..\:/androidstudio/Vizsgaremek/app/src/main/res/layout/activity_diotoro.xml" value="0.25416666666666665" />
+        <entry key="..\:/androidstudio/Vizsgaremek/app/src/main/res/layout/activity_jazzkoncert.xml" value="0.25416666666666665" />
+        <entry key="..\:/androidstudio/Vizsgaremek/app/src/main/res/layout/activity_karacsonyivasar.xml" value="0.25416666666666665" />
+        <entry key="..\:/androidstudio/Vizsgaremek/app/src/main/res/layout/activity_login.xml" value="0.25416666666666665" />
+        <entry key="..\:/androidstudio/Vizsgaremek/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/androidstudio/Vizsgaremek/app/src/main/res/layout/activity_minecinema.xml" value="0.25416666666666665" />
+        <entry key="..\:/androidstudio/Vizsgaremek/app/src/main/res/layout/activity_miskolc_details.xml" value="0.25416666666666665" />
+        <entry key="..\:/androidstudio/Vizsgaremek/app/src/main/res/layout/activity_miskolc_events.xml" value="0.25416666666666665" />
+        <entry key="..\:/androidstudio/Vizsgaremek/app/src/main/res/layout/activity_nyiltnap.xml" value="0.25416666666666665" />
+        <entry key="..\:/androidstudio/Vizsgaremek/app/src/main/res/layout/activity_occasion.xml" value="0.25416666666666665" />
+        <entry key="..\:/androidstudio/Vizsgaremek/app/src/main/res/layout/activity_pecs_details_egyetem.xml" value="0.25416666666666665" />
+        <entry key="..\:/androidstudio/Vizsgaremek/app/src/main/res/layout/activity_pecs_details_koncert.xml" value="0.25416666666666665" />
+        <entry key="..\:/androidstudio/Vizsgaremek/app/src/main/res/layout/activity_pecs_events.xml" value="0.25416666666666665" />
+        <entry key="..\:/androidstudio/Vizsgaremek/app/src/main/res/layout/activity_regesztortenetek.xml" value="0.25416666666666665" />
+        <entry key="..\:/androidstudio/Vizsgaremek/app/src/main/res/layout/activity_regisegvasar.xml" value="0.25416666666666665" />
+        <entry key="..\:/androidstudio/Vizsgaremek/app/src/main/res/layout/activity_register.xml" value="0.25416666666666665" />
+        <entry key="..\:/androidstudio/Vizsgaremek/app/src/main/res/layout/activity_szeged_details.xml" value="0.25416666666666665" />
+        <entry key="..\:/androidstudio/Vizsgaremek/app/src/main/res/layout/activity_szeged_events.xml" value="0.25416666666666665" />
+        <entry key="..\:/androidstudio/Vizsgaremek/app/src/main/res/layout/activity_szin.xml" value="0.25416666666666665" />
+        <entry key="..\:/androidstudio/Vizsgaremek/app/src/main/res/layout/activity_time.xml" value="0.25416666666666665" />
       </map>
     </option>
   </component>

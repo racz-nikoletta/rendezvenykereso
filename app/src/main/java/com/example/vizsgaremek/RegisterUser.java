@@ -28,7 +28,7 @@ public class RegisterUser {
                     data[1] = user.getFirstname();
                     data[2] = user.getEmail();
                     data[3] = user.getPassword();
-                    PutData putData = new PutData("http://10.0.11.200/vizsgaremek/signup.php", "POST", field, data);
+                    PutData putData = new PutData("http://10.0.11.200/vizsg/signup.php", "POST", field, data);
                     if (putData.startPut()) {
                         if (putData.onComplete()) {
                             progressBar.setVisibility(View.GONE);
