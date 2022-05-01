@@ -2,15 +2,15 @@
 class DataBaseConfig
 {
 	public $servername;
-	public $username;
+	public $email;
 	public $password;
 	public $databasename;
 	
 	public function __construct(){
 		$this->servername = 'localhost';
-		$this->username = 'root';
+		$this->email = 'root';
 		$this->password = '';
-		$this->databasename = 'vizsgaremek';
+		$this->databasename = 'vizsga';
 	}
 }
 ?>
