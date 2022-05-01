@@ -60,13 +60,11 @@ class DataBase
         $password = $this->prepareData($password);
         $password = password_hash($password, PASSWORD_DEFAULT);
         $this->sql =
-            "INSERT INTO " . $table . " (lastname, firstname, email, password) 
-			VALUES ('" . $lastname . "','" . $firstname . "','" . $email . "','" . $password . "')";
+            "INSERT INTO " . $table . " (lastname, firstname, email, password) VALUES ('" . $lastname . "','" . $firstname . "','" . $email . "','" . $password . "')";
         if (mysqli_query($this->connect, $this->sql)) {
             return true;
         } else return false;
     }
-	
 	
 
 }
